@@ -93,7 +93,7 @@ if page == "System 1 - Genre":
                 st.write(f"Rating: {rating_to_stars(rating)} ({rating:.1f})")
 else:
     movies = get_displayed_movies()
-    st.header("Rate some movies below to")
+    st.write("Rate some movies below and scroll to the bottom to get movie recommendations!")
 
     movies_columns = ['movie_id', 'title', 'genres']
     movies2 = pd.read_csv('data/movies.dat', sep='::', engine='python', names=movies_columns, encoding='ISO-8859-1')
