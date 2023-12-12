@@ -100,7 +100,7 @@ else:
     movies2['movie_id'] = movies2['movie_id'].astype(int)
 
     # Create a dictionary to store user ratings with default values set to 0
-    user_ratings = {movie['movie_id']: 0 for _, movie in movies.iterrows()}
+    user_ratings = {movie['movie_id']: np.nan for _, movie in movies.iterrows()}
 
     # Calculate the number of rows needed for a 2-column grid
     num_rows = len(movies)
