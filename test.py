@@ -147,10 +147,6 @@ else:
 
 
 
-
-
-
-
 # Footer
 st.sidebar.markdown("---")
 st.sidebar.text("Ammar Alzureiqi and Ahmed Elfarra")
