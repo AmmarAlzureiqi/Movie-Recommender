@@ -153,7 +153,7 @@ else:
 
 # Footer
 st.sidebar.markdown("---")
-st.sidebar.text("Ammar Alzureiqi and Ahmed Elfarra")
+st.sidebar.text("Ammar Alzureiqi and Ahmed Elfarra1")
 
 
 
