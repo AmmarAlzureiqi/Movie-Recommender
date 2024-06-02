@@ -20,7 +20,8 @@ The genre-based recommender system suggests movies based on the selected genre. 
 
 ### Weighted Rating Formula
 
-\[ \text{weighted\_mean} = \frac{(\text{mean\_ratings} \times \text{count})}{(\text{count} + \text{median})} \]
+![Example Image](images/formula.png)
+
 
 Where:
 - **mean_ratings** is the mean of the ratings for the movie.
